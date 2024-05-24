@@ -1,0 +1,6 @@
+/* Define your global styles here */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
