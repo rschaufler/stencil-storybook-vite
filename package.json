@@ -58,7 +58,7 @@
     "jest-cli": "^29.7.0",
     "lit": "^3.2.1",
     "prettier": "^3.3.3",
-    "puppeteer": "^21.11.0",
+    "puppeteer": "^23.6.1",
     "storybook": "^8.3.6",
     "vite": "^5.4.10",
     "wireit": "^0.14.9"
