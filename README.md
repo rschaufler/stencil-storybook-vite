@@ -11,7 +11,7 @@ prior execution of the Stencil scripts.
 
 ## Requirements
 
-* pnPm 8.15
+* pnPm 10.5.2
 
 ## Getting Started
 
