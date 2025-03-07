@@ -1,7 +1,7 @@
 import { Preview } from '@storybook/web-components'
 import { defineCustomElements } from '../loader'
 
-defineCustomElements();
+defineCustomElements()
 
 const preview: Preview = {
   parameters: {
@@ -12,6 +12,6 @@ const preview: Preview = {
       }
     }
   }
-};
+}
 
-export default preview;
+export default preview
