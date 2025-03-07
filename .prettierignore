@@ -14,3 +14,4 @@ pnpm-lock.yaml
 # Auto-generated files
 src/components/**/readme.md
 src/components.d.ts
+renovate.json
