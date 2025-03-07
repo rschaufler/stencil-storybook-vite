@@ -5,7 +5,7 @@ on:
     types: [opened, synchronize]
 
 jobs:
-  build-and-test:
+  code-quality-checks:
     runs-on: ubuntu-latest
 
     steps:
