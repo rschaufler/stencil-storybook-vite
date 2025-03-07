@@ -1,4 +1,4 @@
-import { Config } from '@stencil/core';
+import { Config } from '@stencil/core'
 
 export const config: Config = {
   namespace: 'stencil-storybook-vite',
@@ -23,7 +23,7 @@ export const config: Config = {
     {
       type: 'www',
       serviceWorker: null
-    },
+    }
   ],
   testing: {
     modulePathIgnorePatterns: ['.wireit']
@@ -31,4 +31,4 @@ export const config: Config = {
   devServer: {
     reloadStrategy: 'pageReload'
   }
-};
+}

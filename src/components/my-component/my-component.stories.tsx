@@ -26,6 +26,6 @@ export const MyComponent: Story = {
   args: {
     first: 'John',
     middle: 'Max',
-    last: 'Doe',
+    last: 'Doe'
   }
 }

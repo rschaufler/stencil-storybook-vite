@@ -1,10 +1,10 @@
-import type { StorybookConfig } from '@storybook/web-components-vite';
+import type { StorybookConfig } from '@storybook/web-components-vite'
 
 const config: StorybookConfig = {
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@chromatic-com/storybook'],
   framework: '@storybook/web-components-vite',
-  staticDirs: [{from: '../dist/stencil-storybook-vite', to: 'stencil-storybook-vite'}],
+  staticDirs: [{ from: '../dist/stencil-storybook-vite', to: 'stencil-storybook-vite' }],
   async viteFinal(config, { configType }) {
     const { mergeConfig } = await import('vite')
 
@@ -21,6 +21,6 @@ const config: StorybookConfig = {
       }
     })
   }
-};
+}
 
-export default config;
+export default config
