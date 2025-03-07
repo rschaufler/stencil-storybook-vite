@@ -16,7 +16,7 @@ importers:
         version: 9.21.0
       '@stencil/core':
         specifier: ^4.27.1
-        version: 4.27.1
+        version: 4.27.2
       '@storybook/addon-essentials':
         specifier: ^8.6.1
         version: 8.6.1(@types/react@19.0.10)(storybook@8.6.1(prettier@3.5.2))
@@ -687,8 +687,8 @@ packages:
   '@sinonjs/fake-timers@10.3.0':
     resolution: {integrity: sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA==}
 
-  '@stencil/core@4.27.1':
-    resolution: {integrity: sha512-wJ+U3yJ9xSrME1PheHh8DnZrgFhjTlvF54mkA0tzTDXYdrEAYXIEAAeWbXx3munYX2Lqj3oDBEDsbsJNxDkwzA==}
+  '@stencil/core@4.27.2':
+    resolution: {integrity: sha512-phsgSxWYumdjVhNHZ0pPTXhrM8CgajWidRuoxBfVl76+sVLu3+O2gTuIKd+bZEjixGFb1bHvQeMmlNuwKgxf8Q==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
 
@@ -3300,7 +3300,7 @@ snapshots:
     dependencies:
       '@sinonjs/commons': 3.0.1
 
-  '@stencil/core@4.27.1': {}
+  '@stencil/core@4.27.2': {}
 
   '@storybook/addon-actions@8.6.1(storybook@8.6.1(prettier@3.5.2))':
     dependencies:
