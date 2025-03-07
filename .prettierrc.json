@@ -4,10 +4,10 @@
   "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
   "quoteProps": "consistent",
-  "printWidth": 180,
-  "semi": true,
+  "printWidth": 100,
+  "semi": false,
   "singleQuote": true,
   "tabWidth": 2,
-  "trailingComma": "all",
+  "trailingComma": "none",
   "useTabs": false
 }
