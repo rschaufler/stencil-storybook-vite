@@ -28,5 +28,11 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Static Code Analysis
+        run: pnpm lint
+
+      - name: Code Formatting
+        run: pnpm prettier
+
       - name: Run tests
         run: pnpm stencil:test
