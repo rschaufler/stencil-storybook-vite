@@ -1,0 +1,16 @@
+
+.idea
+.github
+# Build artifacts
+.stencil
+.wireit
+dist
+loader
+node_modules
+storybook-static
+www
+pnpm-lock.yaml
+
+# Auto-generated files
+src/components/**/readme.md
+src/components.d.ts
