@@ -16,7 +16,7 @@ importers:
         version: 9.24.0
       '@stencil/core':
         specifier: ^4.27.1
-        version: 4.29.0
+        version: 4.29.1
       '@storybook/addon-essentials':
         specifier: ^8.6.1
         version: 8.6.12(@types/react@19.0.10)(storybook@8.6.12(prettier@3.5.3))
@@ -740,8 +740,8 @@ packages:
   '@sinonjs/fake-timers@10.3.0':
     resolution: {integrity: sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA==}
 
-  '@stencil/core@4.29.0':
-    resolution: {integrity: sha512-A9jxUKotmEQye1bdAlixoEziVsINJBMKhx406C+VCaH+yzQmQekC9Wa8K82I8D0mdMaq+OrG68v1bqiDI0WAxA==}
+  '@stencil/core@4.29.1':
+    resolution: {integrity: sha512-5Ik6wyB3CWeUbVdhpVaAw3utlOZGW/1VXZXLMRol+lwJVdpSUjeioxYVkoDHQLdtKSDe61lv3/pPHY7PM1o4wA==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
 
@@ -3391,7 +3391,7 @@ snapshots:
     dependencies:
       '@sinonjs/commons': 3.0.1
 
-  '@stencil/core@4.29.0':
+  '@stencil/core@4.29.1':
     optionalDependencies:
       '@rollup/rollup-darwin-arm64': 4.34.9
       '@rollup/rollup-darwin-x64': 4.34.9
