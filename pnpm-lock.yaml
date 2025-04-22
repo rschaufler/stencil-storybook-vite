@@ -64,7 +64,7 @@ importers:
         version: 3.5.3
       puppeteer:
         specifier: ^24.3.0
-        version: 24.6.1(typescript@5.8.2)
+        version: 24.7.0(typescript@5.8.2)
       storybook:
         specifier: ^8.6.1
         version: 8.6.12(prettier@3.5.3)
@@ -582,8 +582,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@puppeteer/browsers@2.10.0':
-    resolution: {integrity: sha512-HdHF4rny4JCvIcm7V1dpvpctIGqM3/Me255CB44vW7hDG1zYMmcBMjpNqZEDxdCfXGLkx5kP0+Jz5DUS+ukqtA==}
+  '@puppeteer/browsers@2.10.1':
+    resolution: {integrity: sha512-NgghEvl9fTZdXvxBHMgTlEVrjhDsbOfXgXzoarsV6o/arp2SvOOzZfFlKpxwLHJo7vVULq9Q/Dg76lUddLxgog==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1277,8 +1277,8 @@ packages:
       '@chromatic-com/playwright':
         optional: true
 
-  chromium-bidi@3.0.0:
-    resolution: {integrity: sha512-ZOGRDAhBMX1uxL2Cm2TDuhImbrsEz5A/tTcVU6RpXEWaTNUNwsHW6njUXizh51Ir6iqHbKAfhA2XK33uBcLo5A==}
+  chromium-bidi@4.0.1:
+    resolution: {integrity: sha512-oRgKuzRQYXEUBlrlXWeBbot0KLyFOAwTe0pt3EJYZ1I0yvvr1dl6zhnUxlkKvSAk0pin+c1SxeuxBILISEgIEw==}
     peerDependencies:
       devtools-protocol: '*'
 
@@ -2294,12 +2294,12 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  puppeteer-core@24.6.1:
-    resolution: {integrity: sha512-sMCxsY+OPWO2fecBrhIeCeJbWWXJ6UaN997sTid6whY0YT9XM0RnxEwLeUibluIS5/fRmuxe1efjb5RMBsky7g==}
+  puppeteer-core@24.7.0:
+    resolution: {integrity: sha512-NEqVstBfP8S0L2PSLbGAVuLPXuvE83zfOf0qo3TadfzT62liurQJL5EC0XZ0dGxs5auBPHYncyJUwQymJuk/Hw==}
     engines: {node: '>=18'}
 
-  puppeteer@24.6.1:
-    resolution: {integrity: sha512-/4ocGfu8LNvDbWUqJZV2VmwEWpbOdJa69y2Jivd213tV0ekAtUh/bgT1hhW63SDN/CtrEucOPwoomZ+9M+eBEg==}
+  puppeteer@24.7.0:
+    resolution: {integrity: sha512-txRZf6QPYEBhnyzzPMCvWm20tstDbbN+j2e9L6+ib4Q+/9+d2V2CPfFnF0mbcW3txEwDlYrN84YLRYpS9/eSOw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2731,8 +2731,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.24.2:
-    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
+  zod@3.24.3:
+    resolution: {integrity: sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg==}
 
 snapshots:
 
@@ -3292,7 +3292,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@puppeteer/browsers@2.10.0':
+  '@puppeteer/browsers@2.10.1':
     dependencies:
       debug: 4.4.0
       extract-zip: 2.0.1
@@ -4065,11 +4065,11 @@ snapshots:
 
   chromatic@11.27.0: {}
 
-  chromium-bidi@3.0.0(devtools-protocol@0.0.1425554):
+  chromium-bidi@4.0.1(devtools-protocol@0.0.1425554):
     dependencies:
       devtools-protocol: 0.0.1425554
       mitt: 3.0.1
-      zod: 3.24.2
+      zod: 3.24.3
 
   ci-info@3.9.0: {}
 
@@ -5270,10 +5270,10 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  puppeteer-core@24.6.1:
+  puppeteer-core@24.7.0:
     dependencies:
-      '@puppeteer/browsers': 2.10.0
-      chromium-bidi: 3.0.0(devtools-protocol@0.0.1425554)
+      '@puppeteer/browsers': 2.10.1
+      chromium-bidi: 4.0.1(devtools-protocol@0.0.1425554)
       debug: 4.4.0
       devtools-protocol: 0.0.1425554
       typed-query-selector: 2.12.0
@@ -5284,13 +5284,13 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  puppeteer@24.6.1(typescript@5.8.2):
+  puppeteer@24.7.0(typescript@5.8.2):
     dependencies:
-      '@puppeteer/browsers': 2.10.0
-      chromium-bidi: 3.0.0(devtools-protocol@0.0.1425554)
+      '@puppeteer/browsers': 2.10.1
+      chromium-bidi: 4.0.1(devtools-protocol@0.0.1425554)
       cosmiconfig: 9.0.0(typescript@5.8.2)
       devtools-protocol: 0.0.1425554
-      puppeteer-core: 24.6.1
+      puppeteer-core: 24.7.0
       typed-query-selector: 2.12.0
     transitivePeerDependencies:
       - bare-buffer
@@ -5701,4 +5701,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.24.2: {}
+  zod@3.24.3: {}
