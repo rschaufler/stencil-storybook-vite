@@ -64,7 +64,7 @@ importers:
         version: 3.5.3
       puppeteer:
         specifier: ^24.3.0
-        version: 24.10.0(typescript@5.8.2)
+        version: 24.10.1(typescript@5.8.2)
       storybook:
         specifier: ^8.6.1
         version: 8.6.14(prettier@3.5.3)
@@ -2469,12 +2469,12 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  puppeteer-core@24.10.0:
-    resolution: {integrity: sha512-xX0QJRc8t19iAwRDsAOR38Q/Zx/W6WVzJCEhKCAwp2XMsaWqfNtQ+rBfQW9PlF+Op24d7c8Zlgq9YNmbnA7hdQ==}
+  puppeteer-core@24.10.1:
+    resolution: {integrity: sha512-AE6doA9znmEEps/pC5lc9p0zejCdNLR6UBp3EZ49/15Nbvh+uklXxGox7Qh8/lFGqGVwxInl0TXmsOmIuIMwiQ==}
     engines: {node: '>=18'}
 
-  puppeteer@24.10.0:
-    resolution: {integrity: sha512-Oua9VkGpj0S2psYu5e6mCer6W9AU9POEQh22wRgSXnLXASGH+MwLUVWgLCLeP9QPHHcJ7tySUlg4Sa9OJmaLpw==}
+  puppeteer@24.10.1:
+    resolution: {integrity: sha512-7T3rfSaaPt5A31VITV5YKQ4wPCCv4aPn8byDaV+9lhDU9v7BWYY4Ncwerw3ZR5mIolrh/PvzGdIDK7yiBth75g==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2604,8 +2604,8 @@ packages:
     resolution: {integrity: sha512-HehCEsotFqbPW9sJ8WVYB6UbmIMv7kUUORIF2Nncq4VQvBfNBLibW9YZR5dlYCSUhwcD628pRllm7n+E+YTzJw==}
     engines: {node: '>= 14'}
 
-  socks@2.8.4:
-    resolution: {integrity: sha512-D3YaD0aRxR3mEcqnidIs7ReYJFVzWdd6fXJYUM8ixcQcJRGTka/b3saV0KflYhyVJXKhb947GndU35SxYNResQ==}
+  socks@2.8.5:
+    resolution: {integrity: sha512-iF+tNDQla22geJdTyJB1wM/qrX9DMRwWrciEPwWLPRWAUEM8sQiyxgckLxWT1f7+9VabJS0jTGGr4QgBuvi6Ww==}
     engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
 
   source-map-js@1.2.1:
@@ -2638,8 +2638,8 @@ packages:
       prettier:
         optional: true
 
-  streamx@2.22.0:
-    resolution: {integrity: sha512-sLh1evHOzBy/iWRiR6d1zRcLao4gGZr3C1kzNz4fopCOKJb6xD9ub8Mpi9Mr1R6id5o43S+d93fI48UC5uM9aw==}
+  streamx@2.22.1:
+    resolution: {integrity: sha512-znKXEBxfatz2GBNK02kRnCXjV+AA4kjZIUxeWSr3UGirZMJfTE9uiwKHobnbgxWyL/JWro8tTq+vOqAK1/qbSA==}
 
   string-length@4.0.2:
     resolution: {integrity: sha512-+l6rNN5fYHNhZZy41RXsYptCjA2Igmq4EG7kZAYFQI1E1VTXarr6ZPXBg6eq7Y6eK4FEhY6AJlyuFIb/v/S0VQ==}
@@ -2903,8 +2903,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.25.47:
-    resolution: {integrity: sha512-+f8+agSYoT9niC0VUL60IuXnr81FJeJ27Lf5YPrmcxTWmygcpGBeEuAAovDDEjkyQ36KyqNswwbhISZ1Z7yY+A==}
+  zod@3.25.63:
+    resolution: {integrity: sha512-3ttCkqhtpncYXfP0f6dsyabbYV/nEUW+Xlu89jiXbTBifUfjaSqXOG6JnQPLtqt87n7KAmnMqcjay6c0Wq0Vbw==}
 
 snapshots:
 
@@ -4217,7 +4217,7 @@ snapshots:
 
   bare-stream@2.6.5(bare-events@2.5.4):
     dependencies:
-      streamx: 2.22.0
+      streamx: 2.22.1
     optionalDependencies:
       bare-events: 2.5.4
     optional: true
@@ -4329,7 +4329,7 @@ snapshots:
     dependencies:
       devtools-protocol: 0.0.1452169
       mitt: 3.0.1
-      zod: 3.25.47
+      zod: 3.25.63
 
   ci-info@3.9.0: {}
 
@@ -5562,7 +5562,7 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  puppeteer-core@24.10.0:
+  puppeteer-core@24.10.1:
     dependencies:
       '@puppeteer/browsers': 2.10.5
       chromium-bidi: 5.1.0(devtools-protocol@0.0.1452169)
@@ -5576,13 +5576,13 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  puppeteer@24.10.0(typescript@5.8.2):
+  puppeteer@24.10.1(typescript@5.8.2):
     dependencies:
       '@puppeteer/browsers': 2.10.5
       chromium-bidi: 5.1.0(devtools-protocol@0.0.1452169)
       cosmiconfig: 9.0.0(typescript@5.8.2)
       devtools-protocol: 0.0.1452169
-      puppeteer-core: 24.10.0
+      puppeteer-core: 24.10.1
       typed-query-selector: 2.12.0
     transitivePeerDependencies:
       - bare-buffer
@@ -5719,11 +5719,11 @@ snapshots:
     dependencies:
       agent-base: 7.1.3
       debug: 4.4.1
-      socks: 2.8.4
+      socks: 2.8.5
     transitivePeerDependencies:
       - supports-color
 
-  socks@2.8.4:
+  socks@2.8.5:
     dependencies:
       ip-address: 9.0.5
       smart-buffer: 4.2.0
@@ -5755,7 +5755,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  streamx@2.22.0:
+  streamx@2.22.1:
     dependencies:
       fast-fifo: 1.3.2
       text-decoder: 1.2.3
@@ -5815,7 +5815,7 @@ snapshots:
     dependencies:
       b4a: 1.6.7
       fast-fifo: 1.3.2
-      streamx: 2.22.0
+      streamx: 2.22.1
 
   test-exclude@6.0.0:
     dependencies:
@@ -5991,4 +5991,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.25.47: {}
+  zod@3.25.63: {}
