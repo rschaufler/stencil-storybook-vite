@@ -38,3 +38,23 @@ To run a build of Stencil and Storybook run:
 ```bash
 pnpm build
 ```
+
+## TypeScript Configuration
+
+This project includes custom type declarations in the `types/` directory to resolve compatibility issues between Stencil and modern Vite versions.
+
+### `types/rollup-parseAst.d.ts`
+
+This file provides type declarations for the `rollup/parseAst` module that Vite's type definitions require but TypeScript cannot resolve due to module resolution limitations with subpath imports.
+
+**Why this is needed:**
+- Vite 5+ uses Rollup's `parseAst` functionality via subpath imports (`rollup/parseAst`)
+- TypeScript's module resolution (even with `bundler`/`nodenext`) cannot resolve these subpath imports in some build contexts
+- Without this declaration, builds fail with: `Cannot find module 'rollup/parseAst'`
+
+**What it does:**
+- Provides minimal type definitions for `parseAst` and `parseAstAsync` functions
+- Enables successful builds while maintaining full TypeScript type checking
+- Avoids the need for `skipLibCheck: true` which would disable type checking entirely
+
+This is a clean, targeted solution that only addresses the specific missing module declaration without compromising the project's type safety.
