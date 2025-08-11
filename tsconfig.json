@@ -12,7 +12,7 @@
     "noUnusedParameters": true,
     "jsx": "react",
     "jsxFactory": "h",
-    "jsxFragmentFactory": "h.Fragment",
+    "jsxFragmentFactory": "h.Fragment"
   },
   "include": ["src", "types"],
   "exclude": ["node_modules"]
