@@ -1,4 +1,4 @@
-import { Preview } from '@storybook/web-components'
+import { Preview } from '@storybook/web-components-vite'
 import { defineCustomElements } from '../loader'
 
 defineCustomElements()
