@@ -43,7 +43,7 @@ importers:
         version: 9.1.16(eslint@9.39.0)(storybook@9.1.16(@testing-library/dom@10.4.0)(prettier@3.6.2)(vite@7.1.10(@types/node@22.18.13)))(typescript@5.9.3)
       globals:
         specifier: ^16.3.0
-        version: 16.4.0
+        version: 16.5.0
       jest:
         specifier: ^29.7.0
         version: 29.7.0(@types/node@22.18.13)
@@ -1731,8 +1731,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@16.4.0:
-    resolution: {integrity: sha512-ob/2LcVVaVGCYN+r14cnwnoDPUufjiYgSqRhiFD0Q1iI4Odora5RE8Iv1D24hAz5oMophRGkGz+yuvQmmUMnMw==}
+  globals@16.5.0:
+    resolution: {integrity: sha512-c/c15i26VrJ4IRt5Z89DnIzCGDn9EcebibhAOjw5ibqEHsE1wLUgkPn9RDmNcUKyU87GeaL633nyJ+pplFR2ZQ==}
     engines: {node: '>=18'}
 
   graceful-fs@4.2.11:
@@ -4414,7 +4414,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@16.4.0: {}
+  globals@16.5.0: {}
 
   graceful-fs@4.2.11: {}
 
