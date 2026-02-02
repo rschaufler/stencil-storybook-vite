@@ -16,7 +16,7 @@ importers:
         version: 9.39.2
       '@stencil/core':
         specifier: ^4.36.2
-        version: 4.41.3
+        version: 4.42.0
       '@storybook/addon-docs':
         specifier: ^9.1.2
         version: 9.1.17(@types/react@19.0.10)(storybook@9.1.17(@testing-library/dom@10.4.0)(prettier@3.8.1)(vite@7.3.1(@types/node@22.19.7)))
@@ -90,6 +90,10 @@ packages:
 
   '@babel/code-frame@7.28.6':
     resolution: {integrity: sha512-JYgintcMjRiCvS8mMECzaEn+m3PfoQiyqukOMCCVQtoJGYJw8j/8LBJEiqkHLkfwCcs74E3pbAUFNg7d9VNJ+Q==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/code-frame@7.29.0':
+    resolution: {integrity: sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==}
     engines: {node: '>=6.9.0'}
 
   '@babel/compat-data@7.28.0':
@@ -949,8 +953,8 @@ packages:
   '@sinonjs/fake-timers@10.3.0':
     resolution: {integrity: sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA==}
 
-  '@stencil/core@4.41.3':
-    resolution: {integrity: sha512-zQ/7/hwsJBKYz0CzN3LyKJ3JdnNTdsYMY+futdyodTLkPNlPeRWVF1EI5syaBb09W+ay/T+TsYbPMXbXgG/3qQ==}
+  '@stencil/core@4.42.0':
+    resolution: {integrity: sha512-1mMkQ3+5jE343detvyFK+U3tJM8Qp8aaaOnGMo815BKMnFShUpioF9ziaX0dJ+goDKWIWbGZ2438dHIGsvE5ug==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
 
@@ -2821,6 +2825,12 @@ snapshots:
       js-tokens: 4.0.0
       picocolors: 1.1.1
 
+  '@babel/code-frame@7.29.0':
+    dependencies:
+      '@babel/helper-validator-identifier': 7.28.5
+      js-tokens: 4.0.0
+      picocolors: 1.1.1
+
   '@babel/compat-data@7.28.0': {}
 
   '@babel/core@7.28.3':
@@ -3574,7 +3584,7 @@ snapshots:
     dependencies:
       '@sinonjs/commons': 3.0.1
 
-  '@stencil/core@4.41.3':
+  '@stencil/core@4.42.0':
     optionalDependencies:
       '@rollup/rollup-darwin-arm64': 4.34.9
       '@rollup/rollup-darwin-x64': 4.34.9
@@ -3649,7 +3659,7 @@ snapshots:
 
   '@testing-library/dom@10.4.0':
     dependencies:
-      '@babel/code-frame': 7.28.6
+      '@babel/code-frame': 7.29.0
       '@babel/runtime': 7.28.6
       '@types/aria-query': 5.0.4
       aria-query: 5.3.0
