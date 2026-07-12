@@ -63,7 +63,7 @@
     "@vitest/browser-playwright": "^4.1.10",
     "eslint": "^9.33.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-storybook": "9.1.20",
+    "eslint-plugin-storybook": "^9.1.20",
     "globals": "^16.3.0",
     "lit": "^3.3.1",
     "prettier": "^3.6.2",
