@@ -25,10 +25,6 @@ export const config: Config = {
       serviceWorker: null
     }
   ],
-  testing: {
-    modulePathIgnorePatterns: ['.wireit'],
-    browserHeadless: 'shell'
-  },
   devServer: {
     reloadStrategy: 'pageReload'
   }
