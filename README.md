@@ -12,7 +12,7 @@ However, you would then need to ensure that all dependencies for each script are
 
 ## Requirements
 
-- pnpm 10.x
+- pnpm 11.x
 
 ## Getting Started
 
