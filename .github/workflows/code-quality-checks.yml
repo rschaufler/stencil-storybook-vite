@@ -35,4 +35,5 @@ jobs:
         run: pnpm prettier
 
       - name: Run tests
-        run: pnpm stencil:test
+        run: pnpm stencil:test:spec
+

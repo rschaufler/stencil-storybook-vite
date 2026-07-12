@@ -17,6 +17,8 @@ log.txt
 .vscode/
 .sass-cache/
 .versions/
+.vitest-attachments/
+__screenshots__
 node_modules/
 $RECYCLE.BIN/
 

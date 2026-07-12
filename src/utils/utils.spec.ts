@@ -1,4 +1,5 @@
 import { format } from './utils'
+import { describe, it, expect } from '@stencil/vitest'
 
 describe('format', () => {
   it('returns empty string for no names defined', () => {
