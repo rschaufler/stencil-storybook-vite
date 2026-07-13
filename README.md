@@ -8,7 +8,7 @@ sequentially. This is particularly beneficial when using Stencil with Storybook,
 prior execution of the Stencil scripts. Please note that you can also adjust the package.json scripts to not use Wireit.
 However, you would then need to ensure that all dependencies for each script are fulfilled before execution.
 
-🆕 Added support for Storybook 9.
+🆕 Added support for Storybook 10.
 
 ## Requirements
 
