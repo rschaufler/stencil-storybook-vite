@@ -1,5 +1,17 @@
 # Stencil Storybook Vite Starter
 
+> [!IMPORTANT]
+> **This repository is archived.** Stencil now ships an official Storybook integration,
+> [`@stencil/storybook-plugin`](https://www.npmjs.com/package/@stencil/storybook-plugin), which supports
+> Storybook 10, compiles components inside the Storybook pipeline (no manual build orchestration or
+> hot-reload workarounds) and generates controls/docs from component metadata. Use it instead of this
+> starter — see the [Stencil Storybook docs](https://stenciljs.com/docs/storybook).
+>
+> This repo remains available as a reference for a different setup: rendering Stencil's **built `dist/`
+> output** through the lazy loader (the artifact consumers actually install) in Storybook, with stories
+> written in Lit against the plain custom-element API. Everything works as of Storybook 10.5 /
+> Stencil 4.43 / Vite 7.
+
 This is a starter project for building a standalone Web Component using Stencil and Storybook for Web-Components with Vite.
 
 This project utilizes [Google Wireit](https://github.com/google/wireit) for efficient build management and dev server
