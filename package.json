@@ -67,7 +67,7 @@
     "lit": "^3.3.1",
     "prettier": "^3.6.2",
     "storybook": "^10.5.0",
-    "typescript": "^5.9.2",
+    "typescript": "^7.0.0",
     "typescript-eslint": "^8.63.0",
     "vite": "^7.0.0",
     "vitest": "^4.1.10",
