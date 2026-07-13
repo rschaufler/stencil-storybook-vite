@@ -18,7 +18,22 @@ const config: StorybookConfig = {
         // see: https://vitejs.dev/config/server-options.html#server-watch
         // setting it to anything other than dist fixes the issue
         outDir: 'dist-vite'
-      }
+      },
+      plugins: [
+        {
+          // Storybook 10 accepts HMR updates for preview.ts (and its transitive deps like the
+          // Stencil loader) at the project-annotations boundary. That soft re-render cannot pick
+          // up rebuilt Stencil components because custom elements cannot be redefined, so force
+          // the full page reload that Storybook <= 9 used to do.
+          name: 'stencil-force-full-reload',
+          handleHotUpdate({ file, server }) {
+            if (file.includes('/dist/')) {
+              server.ws.send({ type: 'full-reload' })
+              return []
+            }
+          }
+        }
+      ]
     })
   }
 }
